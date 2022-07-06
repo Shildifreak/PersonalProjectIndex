@@ -36,6 +36,10 @@ Es hat eine Custom Gameengine mit mehr oder weniger funktionierenden Netzwerkmod
 [https://shildimon.de](https://shildimon.de)  
 [https://github.com/Shildifreak/Shildimon](https://github.com/Shildifreak/Shildimon)
 
+|   |   |   |   |
+|---|---|---|---|
+|![alt test](img/Shildimon/Screenshot-1.png)|![alt test](img/Shildimon/Screenshot-2.png)|![alt test](img/Shildimon/Screenshot-3.png)|![alt test](img/Shildimon/Screenshot-4.png)|
+
 # Beendete Projekte #
 
 ## Schach
@@ -56,6 +60,14 @@ Gebaut aus einer alten Fahrradluftpumpe, Limo Flasche, Plexiglas und Sperrholz. 
 ## Mail based Login/Authentification for Website
 ## Xbox360 Guitar/Piano driver
 ## Laserpointer
+tags: basteln, diy
+
+Warum einen Laserpointer für 10-20€ kaufen wenn man die Dioden einzeln für unter 1€ bekommt?
+
+|   |   |
+|---|---|
+|[![alt test](img/Laserpointer/20220606_191357_preview.jpg "click to view")](img/Laserpointer/20220606_191357.jpg) | [![alt test](img/Laserpointer/20220606_191419_preview.jpg "click to view")](img/Laserpointer/20220606_191419.jpg) |
+
 ## Gameboy DMG SP Mod
 ## Wifi Tisch
 ## Robotik
