@@ -42,6 +42,10 @@ Es hat eine Custom Gameengine mit mehr oder weniger funktionierenden Netzwerkmod
 
 # Beendete Projekte #
 
+## Oszilloskop Display
+
+-> img/OsziTV
+
 ## Schach
 tags: Software, Python
 
@@ -69,10 +73,17 @@ Warum einen Laserpointer für 10-20€ kaufen wenn man die Dioden einzeln für u
 |[![alt test](img/Laserpointer/20220606_191357_preview.jpg "click to view")](img/Laserpointer/20220606_191357.jpg) | [![alt test](img/Laserpointer/20220606_191419_preview.jpg "click to view")](img/Laserpointer/20220606_191419.jpg) |
 
 ## Gameboy DMG SP Mod
+-> img/DMGSP/
+## PokeRom
+-> img/PokeROM/
 ## Wifi Tisch
+-> img/Tisch/
 ## Robotik
 		<- Programmed them in nxc, python, and original mindstorms programming language
 ## Tafelroboter
+## IMU Achterbahn Mapper
+-> include pdf here
+-> img/Achterbahnlog/
 ## Omnibot
 ## Ein-Motor-Bot
 ## BotArena
@@ -82,8 +93,7 @@ tags: Software, ProgrammierAG, Python, JavaScript, wip
 ## MooMooClone
 ## FlappyBirdClone
 
-## MCGEM
-## PokeRom
+## MCGEM/Quest of Marie Curie
 ## Sudoku Helper
 ## Marsbuggy
 ## Luna
@@ -165,6 +175,7 @@ Die Grundlage bildet ein etwa quadratisches Stück Leder, mit einem ausragendem 
 Die linke Seite wird zur Deckklappe der Hülle. Auf der Innenseite der Deckklappe ist ein kleineres Stück Leder als Tasche für Karten, Bilder und ähnliches aufgenäht.
 Zur Verstärkung der Deckklappe dient eine Schnitt und Stoßsichere Plastikplatte mit gerundeten Ecken. In diese sind entlang des Randes kleine Löcher gebohrt und dadurch sind das Leder und die in Stoff eingeschlagene Plastikplatte vernäht.
 
+-> img/Handyhülle/
 
 ## Umrührtasse
 tags: basteln, diy
