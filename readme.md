@@ -44,7 +44,13 @@ Es hat eine Custom Gameengine mit mehr oder weniger funktionierenden Netzwerkmod
 
 ## Oszilloskop Display
 
+Screengrabber -> Edge Detector -> Vectorizer -> Sampler -> Audio Card -> Oszilloskop
+
 -> img/OsziTV
+
+## Buchstützenmonitorstand
+
+-> img/Buchstützenmonitorstand
 
 ## Schach
 tags: Software, Python
