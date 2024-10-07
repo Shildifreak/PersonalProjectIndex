@@ -129,8 +129,13 @@ tags: Robotik
 Als Facharbeit im Gymnasium habe ich einen Roboter programmiert der magnetisch an Schultafeln fahren kann. Die Steuerung erfolgte mittels Toucheingabe auf einem Tablet. Auf einer virtuellen Tafel gezeichnete Linien wurden von dem Roboter an die echte Tafel übertragen. Positionsfeedback für die Steuerung erfolgte über Bildauswertung von einer Webcam.
 
 ## IMU Achterbahn Mapper
--> include pdf here
--> img/Achterbahnlog/
+|   |   |   |
+|---|---|---|
+|![](img/Achterbahnlog/velocity.png)|![](img/Achterbahnlog/rotation.png)|![](img/Achterbahnlog/rotationtopos.png)|
+
+(Versuch der) Rekonstruktion einer Achterbahn aus Inertialmessdaten. Studienarbeit Physik im Gymnasium.
+[pdf](img/Achterbahnlog/Achterbahnlog.pdf)
+
 ## Omnibot
 tags: Robotik
 ## Ein-Motor-Bot
@@ -144,16 +149,27 @@ tags: ProgrammierAG, Videospiel
 tags: ProgrammierAG, Videospiel
 ## MCGEM/Quest of Marie Curie
 tags: Software, Python, Videospiel
+
+Ein für unsere Schule entstandenes Adventure Game zu Marie Curie. Es ist der große Tag, der Tag an dem Marie Curie ihr erstes radioaktives Element entdecken wird, aber etwas läuft schief, ihr Mann Pierre Curie wird entführt und der Schurke will nichts anderes als eben jenes Element. Wird sie es schaffen ihren Mann zu befreien? Das Ende liegt nun in der Hand des Spielers.
+[mehr](https://shildimon.de/joram/projekte/MCGEM/index.html)
+
 ## Sudoku Helper
 tags: Software, JavaScript
 ## Marsbuggy
 tags: Software, Python, Videospiel
+
+Ein kleines Spiel mit Sucht- und Frustrationspotenzial. Inklusive OnlineHighscore und verschiedenen Spielmodi.
+[mehr](https://shildimon.de/joram/projekte/Marsbuggy/index.html)
+
 ## Luna
 tags: Software, Python
+
+Ein Programm, welches versucht in einer Unterhaltung mit dem Benutzer (in deutscher Sprache) Sätze auf die enthaltene Information hin auszuwerten und mithilfe der bisher gesammelten Informationen sinnvolle Bemerkungen oder Fragen beizusteuern.
+
 ## KnockoutMaus
 tags: Software, JavaScript
 
-Eine simple Applikation zur Demonstration des Knockout Verfahrens zur Bestimmung der Bedeutung von Genen.
+In der Biotechnologie gibt es zur Bestimmung der Funktion von Genen das Knockout Verfahren. Diese Javascript Spielerei demonstriert grafisch das zugrundeliegende Prinzip.
 
 [https://shildimon.de/joram/projekte/knockout/index.html](https://shildimon.de/joram/projekte/knockout/index.html)
 
