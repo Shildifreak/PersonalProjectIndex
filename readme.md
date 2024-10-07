@@ -19,19 +19,19 @@ tags: basteln, wip
 aktueller Stand: mein Handy liefert zu wenig Strom für meinen USB-C Bildschirm und ich hab noch keinen Adapter gefunden der power injiziert aber DP alt mode durchschleift.
 
 ## MCG Craft
+![mcgcraft screenshot](https://mcgcraft.de/screenshots/screenshot_mcgcraft_large.png)
+Minecraft Clone der ProgrammierAG des Marie-Curie-Gymnasiums.  
 [github.com/Shildifreak/MCG_CRAFT](https://github.com/Shildifreak/MCG_CRAFT)  
-
-Minecraft Clone für Bildungszwecke.
 
 ## Custom Scriptsprache (Kröt/ToadScript2.0/Cotton)
 Ursprünglich für Shildimon entwickelte Scriptsprache.  
 Codeblöcke sind Strings, Variablennamen sind Strings, Kommentare sind nicht immer Strings (sondern beziehen sich auf AST nodes), Whitespaces definieren ob operatoren binär oder unär sind, ...  
 
-[https://shildimon.de/ToadScript/](https://shildimon.de/ToadScript/)
+Interactive Parser Demo: [https://shildimon.de/ToadScript/](https://shildimon.de/ToadScript/)
 
 ## Shildimon-Engine Shildimon-Spiel
 Ein Spiel wofür ich die Idee in der 5. Klasse hatte und weshalb ich angefangen habe Programmieren zu lernen. Es ist bis jetzt nicht fertig geworden und aktuell arbeite ich auch nicht mehr aktiv daran.  
-Es hat eine Custom Gameengine mit mehr oder weniger funktionierenden Netzwerkmodus. Eine Scriptsprache mit 3 Versionen von denen keine so richtig funktioniert. Viele Ideen auf Papier. Mehrere Landkarten. Ein paar Sammelkarten. Ein inzwischen nicht mehr zu erreichendes Wiki. Ein noch nicht geschriebenes Buch. etc. :D
+Es hat eine Custom Gameengine mit mehr oder weniger funktionierendem Netzwerkmodus. Eine Scriptsprache mit 3 Versionen von denen keine so richtig funktioniert. Viele Ideen auf Papier. Mehrere Landkarten. Ein paar Sammelkarten. Ein inzwischen nicht mehr zu erreichendes Wiki. Ein noch nicht geschriebenes Buch. etc. :D
 
 [https://shildimon.de](https://shildimon.de)  
 [https://github.com/Shildifreak/Shildimon](https://github.com/Shildifreak/Shildimon)
@@ -44,13 +44,14 @@ Es hat eine Custom Gameengine mit mehr oder weniger funktionierenden Netzwerkmod
 
 ## Oszilloskop Display
 
-Screengrabber -> Edge Detector -> Vectorizer -> Sampler -> Audio Card -> Oszilloskop
-
--> img/OsziTV
+![Video](img/OsziTV/video_2023-07-21_22-10-55.gif)  
+Screengrabber -> Edge Detector -> Vectorizer -> Sampler -> Audio Card -> Oszilloskop in xy mode
 
 ## Buchstützenmonitorstand
 
--> img/Buchstützenmonitorstand
+|   |   |
+|---|---|
+|![](img/Buchstützenmonitorstand/photo_2023-07-25_17-52-04.jpg)|![](img/Buchstützenmonitorstand/photo_2023-07-25_17-52-07.jpg)
 
 ## Schach
 tags: Software, Python
@@ -68,7 +69,13 @@ In der Implementierung fehlt jedoch noch eine Heuristik für den Computergegner,
 Gebaut aus einer alten Fahrradluftpumpe, Limo Flasche, Plexiglas und Sperrholz. (Funktioniert ungefähr so gut wie die Dinger aus dem Spielzeugladen, ist aber 10 mal so sperrig.)
 
 ## Mail based Login/Authentification for Website
+Warum noch Passwörter benutzen, wenn man am Ende sowieso jedes Mal seine Email bestätigen muss. Dieses UI Konzept zeigt wie ein rein Email basierter login flow funktionieren könnte.
+Idealerweise würde man natürlich signierte Emails fordern.
+https://mcgcraft.de/authtest/login
+
 ## Xbox360 Guitar/Piano driver
+Userspace USB Treiber für die Rockband 3 XBOX 360 Controller in Form einer Gitarre und eines Klaviers. Die Treiber sind in Python geschrieben und als Input für ein simples Synthesizer Script genutzt.
+
 ## Laserpointer
 tags: basteln, diy
 
@@ -79,9 +86,20 @@ Warum einen Laserpointer für 10-20€ kaufen wenn man die Dioden einzeln für u
 |[![alt test](img/Laserpointer/20220606_191357_preview.jpg "click to view")](img/Laserpointer/20220606_191357.jpg) | [![alt test](img/Laserpointer/20220606_191419_preview.jpg "click to view")](img/Laserpointer/20220606_191419.jpg) |
 
 ## Gameboy DMG SP Mod
--> img/DMGSP/
+|   |   |
+|---|---|
+|[![](img/DMGSP/20210126_161338.jpg)|![](img/DMGSP/20210308_222448.jpg)|
+
+[Video](https://www.youtube.com/watch?v=pLa46G2ShCg)
+
 ## PokeRom
--> img/PokeROM/
+|   |   |   |
+|---|---|---|
+|![](img/PokeROM/20201231_221923.jpg)|![](img/PokeROM/20210102_020448.jpg)|![](img/PokeROM/20210102_045401.jpg)|
+
+Angeblich ist Emulation ja ok, solange man die ROM Daten selbst von der eigenen Cartridge zieht.  
+Quellcode: [https://github.com/Shildifreak/Project_PokeROM](https://github.com/Shildifreak/Project_PokeROM)
+
 ## Wifi Tisch
 -> img/Tisch/
 ## Robotik
