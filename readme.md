@@ -3,7 +3,7 @@ Die Liste ist keineswegs vollständig, aber das Ziel ist es zu den meisten Proje
 Falls zu einzelnen Projekten Interesse an Quellcode oder Plänen besteht könnt ihr mich gerne anschreiben und ich schaue was ich noch dazu finden kann.
 
 # tags
-Robotik, ProgrammierAG, Software, Python, Uni, Minecraft, Basteln, Design, Mechanik  
+Videospiel, Robotik, ProgrammierAG, Software, Python, JavaScript, Uni, Minecraft, Basteln, DIY, Design, Mechanik, Gameboy, Elektronik  
 (die Tags sollen vielleicht irgendwann für eine Filterfunktion benutzt werden, aber fürs erste versucht es einfach mit str+f)
 
 # Laufende Projekte #
@@ -16,9 +16,12 @@ tags: basteln, wip
 |[![alt test](img/CNC/20220416_152508_16_10_preview.jpg "click to view")](img/CNC/20220416_152508_16_10.jpg) |![alt test](img/CNC/20220620_112926_64x_540p.gif)|
 
 ## Custom Laptop
+tags: design
 aktueller Stand: mein Handy liefert zu wenig Strom für meinen USB-C Bildschirm und ich hab noch keinen Adapter gefunden der power injiziert aber DP alt mode durchschleift.
 
 ## MCG Craft
+tags: Software, ProgrammierAG, Python, JavaScript, Videospiel, wip
+
 ![mcgcraft screenshot](https://mcgcraft.de/screenshots/screenshot_mcgcraft_large.png)
 Minecraft Clone der ProgrammierAG des Marie-Curie-Gymnasiums.  
 [github.com/Shildifreak/MCG_CRAFT](https://github.com/Shildifreak/MCG_CRAFT)  
@@ -30,6 +33,7 @@ Codeblöcke sind Strings, Variablennamen sind Strings, Kommentare sind nicht imm
 Interactive Parser Demo: [https://shildimon.de/ToadScript/](https://shildimon.de/ToadScript/)
 
 ## Shildimon-Engine Shildimon-Spiel
+tags: Videospiel, Software, Python, wip
 Ein Spiel wofür ich die Idee in der 5. Klasse hatte und weshalb ich angefangen habe Programmieren zu lernen. Es ist bis jetzt nicht fertig geworden und aktuell arbeite ich auch nicht mehr aktiv daran.  
 Es hat eine Custom Gameengine mit mehr oder weniger funktionierendem Netzwerkmodus. Eine Scriptsprache mit 3 Versionen von denen keine so richtig funktioniert. Viele Ideen auf Papier. Mehrere Landkarten. Ein paar Sammelkarten. Ein inzwischen nicht mehr zu erreichendes Wiki. Ein noch nicht geschriebenes Buch. etc. :D
 
@@ -43,11 +47,13 @@ Es hat eine Custom Gameengine mit mehr oder weniger funktionierendem Netzwerkmod
 # Beendete Projekte #
 
 ## Oszilloskop Display
+tags: Elektronik, Software, Python
 
 ![Video](img/OsziTV/video_2023-07-21_22-10-55.gif)  
 Screengrabber -> Edge Detector -> Vectorizer -> Sampler -> Audio Card -> Oszilloskop in xy mode
 
 ## Buchstützenmonitorstand
+tags: diy
 
 |   |   |
 |---|---|
@@ -69,11 +75,13 @@ In der Implementierung fehlt jedoch noch eine Heuristik für den Computergegner,
 Gebaut aus einer alten Fahrradluftpumpe, Limo Flasche, Plexiglas und Sperrholz. (Funktioniert ungefähr so gut wie die Dinger aus dem Spielzeugladen, ist aber 10 mal so sperrig.)
 
 ## Mail based Login/Authentification for Website
+tags: design
 Warum noch Passwörter benutzen, wenn man am Ende sowieso jedes Mal seine Email bestätigen muss. Dieses UI Konzept zeigt wie ein rein Email basierter login flow funktionieren könnte.
 Idealerweise würde man natürlich signierte Emails fordern.
 https://mcgcraft.de/authtest/login
 
 ## Xbox360 Guitar/Piano driver
+tags: Python
 Userspace USB Treiber für die Rockband 3 XBOX 360 Controller in Form einer Gitarre und eines Klaviers. Die Treiber sind in Python geschrieben und als Input für ein simples Synthesizer Script genutzt.
 
 ## Laserpointer
@@ -86,6 +94,8 @@ Warum einen Laserpointer für 10-20€ kaufen wenn man die Dioden einzeln für u
 |[![alt test](img/Laserpointer/20220606_191357_preview.jpg "click to view")](img/Laserpointer/20220606_191357.jpg) | [![alt test](img/Laserpointer/20220606_191419_preview.jpg "click to view")](img/Laserpointer/20220606_191419.jpg) |
 
 ## Gameboy DMG SP Mod
+tags: Gameboy, Elektronik
+
 |   |   |
 |---|---|
 |[![](img/DMGSP/20210126_161338.jpg)|![](img/DMGSP/20210308_222448.jpg)|
@@ -93,6 +103,8 @@ Warum einen Laserpointer für 10-20€ kaufen wenn man die Dioden einzeln für u
 [Video](https://www.youtube.com/watch?v=pLa46G2ShCg)
 
 ## PokeRom
+tags: Gameboy, Software, Python
+
 |   |   |   |
 |---|---|---|
 |![](img/PokeROM/20201231_221923.jpg)|![](img/PokeROM/20210102_020448.jpg)|![](img/PokeROM/20210102_045401.jpg)|
@@ -100,29 +112,53 @@ Warum einen Laserpointer für 10-20€ kaufen wenn man die Dioden einzeln für u
 Angeblich ist Emulation ja ok, solange man die ROM Daten selbst von der eigenen Cartridge zieht.  
 Quellcode: [https://github.com/Shildifreak/Project_PokeROM](https://github.com/Shildifreak/Project_PokeROM)
 
-## Wifi Tisch
--> img/Tisch/
-## Robotik
-		<- Programmed them in nxc, python, and original mindstorms programming language
+## Internet of Tisch
+tags: Elektronik, DIY, IOT
+
+|   |   |   |
+|---|---|---|
+|![](img/Tisch/photo_2024-10-07_21-43-33.jpg)|![](img/Tisch/IMG_20200422_185930.jpg)|![](img/Tisch/photo_2024-10-07_21-31-35.jpg)|
+
+ESP32 basierte Fernsteuerung um den höhenverstellbaren Tisch bequem per WebAPP / REST API zu steuern.  
+Pro: Guter Partygag. Erfahrung gesammelt mit ESP32 Wifi Schnittstelle und Benutzung von Logik Analyzer für Protokoll Reverse Engineering.
+Con: Jedes mal das Handy rauszuholen um den Tisch zu verstellen ist furchtbar unpraktisch. Cannot recommend.
+
 ## Tafelroboter
+tags: Robotik
+
+Als Facharbeit im Gymnasium habe ich einen Roboter programmiert der magnetisch an Schultafeln fahren kann. Die Steuerung erfolgte mittels Toucheingabe auf einem Tablet. Auf einer virtuellen Tafel gezeichnete Linien wurden von dem Roboter an die echte Tafel übertragen. Positionsfeedback für die Steuerung erfolgte über Bildauswertung von einer Webcam.
+
 ## IMU Achterbahn Mapper
 -> include pdf here
 -> img/Achterbahnlog/
 ## Omnibot
+tags: Robotik
 ## Ein-Motor-Bot
-## BotArena
-tags: ProgrammierAG
-## MCGCRAFT
-tags: Software, ProgrammierAG, Python, JavaScript, wip
-## MooMooClone
-## FlappyBirdClone
+tags: Robotik
 
+## BotArena
+tags: ProgrammierAG, Videospiel
+## MooMooClone
+tags: ProgrammierAG, Videospiel
+## FlappyBirdClone
+tags: ProgrammierAG, Videospiel
 ## MCGEM/Quest of Marie Curie
+tags: Software, Python, Videospiel
 ## Sudoku Helper
+tags: Software, JavaScript
 ## Marsbuggy
+tags: Software, Python, Videospiel
 ## Luna
+tags: Software, Python
 ## KnockoutMaus
+tags: Software, JavaScript
+
+Eine simple Applikation zur Demonstration des Knockout Verfahrens zur Bestimmung der Bedeutung von Genen.
+
+[https://shildimon.de/joram/projekte/knockout/index.html](https://shildimon.de/joram/projekte/knockout/index.html)
+
 ## Bomberman
+tags: Software, Python, Videospiel
 ## Intelligente Tastatur
 tags: Software, Python
 
@@ -135,7 +171,21 @@ Weil am Rand weniger Vorschläge angezeigt werden können werden die Buchstaben 
 ## SoftwaretechnologieProjekt
 tags: uni
 ## Pathfinding Lidar Roboter
-## Particle Simulation on Manifold
+tags: uni
+## Particle Simulations on 2D Manifolds
+tags: uni
+
+|   |   |
+|---|---|
+|![](img/Physarum/torus_shaded.png)|![](img/Physarum/beautiful_bugs.png)|
+
+|   |   |   |
+|---|---|---|
+|![](img/Physarum/particles_avoiding_covered_area.png)|![](img/Physarum/particle_transfer.png)|![](img/Physarum/SDF.png)|
+
+Eine Computergrafik Arbeit für die Uni.  
+[Arbeit](img/Physarum/thesis.pdf) [Präsentation](img/Physarum/presentation_final3.pdf)
+
 ## Image Recognition Bewerbung
 
 ## Betondrucker
