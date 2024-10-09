@@ -46,6 +46,20 @@ Es hat eine Custom Gameengine mit mehr oder weniger funktionierendem Netzwerkmod
 
 # Beendete Projekte #
 
+## SmolSnek
+tags: Software, JavaScript
+
+|v1|v4|v8|
+|-|-|-|
+|![](img/SmolSnek/v1.png)|![](img/SmolSnek/v4.png)|![](img/SmolSnek/v8_christmas.png)|
+
+Snake Programm das komplett in einen QR Code passt (inspiriert von MattKC: https://mattkc.com/etc/snakeqr/)  
+Zum Spielen: QR Code scannen > als Text kopieren > in URL Leiste des Browsers einfügen  
+(nicht alle Smartphones/Browser unterstützen data urls)  
+
+repository: [https://github.com/Shildifreak/SmolSnek](https://github.com/Shildifreak/SmolSnek)  
+als website: [https://shildimon.de/joram/projekte/SmolSnek](https://shildimon.de/joram/projekte/SmolSnek)
+
 ## Oszilloskop Display
 tags: Elektronik, Software, Python
 
@@ -151,15 +165,19 @@ tags: ProgrammierAG, Videospiel
 tags: Software, Python, Videospiel
 
 Ein für unsere Schule entstandenes Adventure Game zu Marie Curie. Es ist der große Tag, der Tag an dem Marie Curie ihr erstes radioaktives Element entdecken wird, aber etwas läuft schief, ihr Mann Pierre Curie wird entführt und der Schurke will nichts anderes als eben jenes Element. Wird sie es schaffen ihren Mann zu befreien? Das Ende liegt nun in der Hand des Spielers.
-[mehr](https://shildimon.de/joram/projekte/MCGEM/index.html)
+[mehr](https://shildimon.de/joram/projekte/MCGEM)
 
-## Sudoku Helper
+## Sudoku Assistent
 tags: Software, JavaScript
+
+Ein Programm, dass einem die trivialen Schritte des Sudokulösens abnimmt. Zeigt verbleibende mögliche Zahlen für Felder und hebt Zahlen hervor die nur noch eine andere mögliche Platzierung in Spalte/Zeile/Feld haben.  
+https://shildimon.de/joram/projekte/Sudoku
+
 ## Marsbuggy
 tags: Software, Python, Videospiel
 
 Ein kleines Spiel mit Sucht- und Frustrationspotenzial. Inklusive OnlineHighscore und verschiedenen Spielmodi.
-[mehr](https://shildimon.de/joram/projekte/Marsbuggy/index.html)
+[mehr](https://shildimon.de/joram/projekte/Marsbuggy)
 
 ## Luna
 tags: Software, Python
@@ -203,6 +221,8 @@ Eine Computergrafik Arbeit für die Uni.
 [Arbeit](img/Physarum/thesis.pdf) [Präsentation](img/Physarum/presentation_final3.pdf)
 
 ## Image Recognition Bewerbung
+
+![pdf](img/ImageRecognitionBewerbung/Bewerbung.pdf)
 
 ## Betondrucker
 tags: Minecraft, redstone
